@@ -1,0 +1,14 @@
+C:\Users\carva\source\repos\estructuradecontrol\estructuradecontrol\bin\Debug\net8.0\estructuradecontrol.exe
+C:\Users\carva\source\repos\estructuradecontrol\estructuradecontrol\bin\Debug\net8.0\estructuradecontrol.deps.json
+C:\Users\carva\source\repos\estructuradecontrol\estructuradecontrol\bin\Debug\net8.0\estructuradecontrol.runtimeconfig.json
+C:\Users\carva\source\repos\estructuradecontrol\estructuradecontrol\bin\Debug\net8.0\estructuradecontrol.dll
+C:\Users\carva\source\repos\estructuradecontrol\estructuradecontrol\bin\Debug\net8.0\estructuradecontrol.pdb
+C:\Users\carva\source\repos\estructuradecontrol\estructuradecontrol\obj\Debug\net8.0\estructuradecontrol.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carva\source\repos\estructuradecontrol\estructuradecontrol\obj\Debug\net8.0\estructuradecontrol.AssemblyInfoInputs.cache
+C:\Users\carva\source\repos\estructuradecontrol\estructuradecontrol\obj\Debug\net8.0\estructuradecontrol.AssemblyInfo.cs
+C:\Users\carva\source\repos\estructuradecontrol\estructuradecontrol\obj\Debug\net8.0\estructuradecontrol.csproj.CoreCompileInputs.cache
+C:\Users\carva\source\repos\estructuradecontrol\estructuradecontrol\obj\Debug\net8.0\estructuradecontrol.dll
+C:\Users\carva\source\repos\estructuradecontrol\estructuradecontrol\obj\Debug\net8.0\refint\estructuradecontrol.dll
+C:\Users\carva\source\repos\estructuradecontrol\estructuradecontrol\obj\Debug\net8.0\estructuradecontrol.pdb
+C:\Users\carva\source\repos\estructuradecontrol\estructuradecontrol\obj\Debug\net8.0\estructuradecontrol.genruntimeconfig.cache
+C:\Users\carva\source\repos\estructuradecontrol\estructuradecontrol\obj\Debug\net8.0\ref\estructuradecontrol.dll
