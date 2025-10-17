@@ -94,6 +94,83 @@
 //Console.WriteLine("tercera cuota (20%): " + cuato3);
 //Console.WriteLine("cuarta cuota (15%): " + cuato4);
 
+//solicitar año de nacimiento
+
+//Console.WriteLine("Ingrese su nombre:");
+//string nombre = Console.ReadLine();
+
+//Console.WriteLine("Ingrese su dirección:");
+//string direccion = Console.ReadLine();
+
+//Console.WriteLine("Ingrese su año de nacimiento:");
+//int añoNacimiento = int.Parse(Console.ReadLine());
+
+//int edad = 2025 - añoNacimiento;
+
+//Console.WriteLine("Nombre: " + nombre);
+//Console.WriteLine("Dirección: " + direccion);
+//Console.WriteLine("Año de nacimiento: " + añoNacimiento);
+//Console.WriteLine("Edad: " + edad + " años");
+
+//Baldes de agua
+
+//Console.WriteLine("Ejercicio 4");
+//Console.WriteLine("Un balde de 1 litro tarda 1 hora y media en llenarse.");
+
+//// Tiempo que tarda el balde de 1 litro (en horas)
+//float tiempo1Litro = 1.5f;
+
+//// Calcular tiempo para baldes de 3 y 5 litros
+//float tiempo3Litros = tiempo1Litro * 3;
+//float tiempo5Litros = tiempo1Litro * 5;
+
+//Console.WriteLine("Tiempo para llenar balde de 1 litro: " + tiempo1Litro + " horas");
+//Console.WriteLine("Tiempo para llenar balde de 3 litros: " + tiempo3Litros + " horas");
+//Console.WriteLine("Tiempo para llenar balde de 5 litros: " + tiempo5Litros + " horas");
+
+//montaña de 7 metros
+
+//Console.WriteLine("Ejercicio 5");
+//Console.WriteLine("Una persona tarda 5 horas en subir una montaña de 7 metros.");
+
+//Console.WriteLine("Ingrese la altura (en metros) que desea subir:");
+//float altura = float.Parse(Console.ReadLine());
+
+//// Regla de tres simple: (tiempo * nueva_altura) / altura_total
+//float tiempo = (5 * altura) / 7;
+
+//Console.WriteLine("El tiempo estimado para subir " + altura + " metros es: " + tiempo + " horas");
+
+
+//prestamo estudiante
+
+//Console.WriteLine("Ejercicio 6");
+//Console.WriteLine("Un estudiante realiza un préstamo a 5 años con una tasa fija de interés del 5% anual.");
+
+//Console.WriteLine("Ingrese el monto del préstamo:");
+//double prestamo = double.Parse(Console.ReadLine());
+
+//double tasa = 0.05; 
+//int años = 5;
+
+
+//double interesAnual = prestamo * tasa;
+//double interesTrimestre = interesAnual / 4 * 3; 
+//double interesMensual = interesAnual / 12; 
+//double totalInteres = interesAnual * años;
+//double totalPagar = prestamo + totalInteres;
+
+//Console.WriteLine("Interés pagado en un año: $" + interesAnual);
+//Console.WriteLine("Interés pagado en el tercer trimestre: $" + interesTrimestre);
+//Console.WriteLine("Interés pagado en el primer mes: $" + interesMensual);
+//Console.WriteLine("Total a pagar (capital + intereses): $" + totalPagar);
+
+
+
+
+
+
+
 
 
 
