@@ -12,3 +12,4 @@ C:\Users\carva\source\repos\estructuradecontrol\estructuradecontrol\obj\Debug\ne
 C:\Users\carva\source\repos\estructuradecontrol\estructuradecontrol\obj\Debug\net8.0\estructuradecontrol.pdb
 C:\Users\carva\source\repos\estructuradecontrol\estructuradecontrol\obj\Debug\net8.0\estructuradecontrol.genruntimeconfig.cache
 C:\Users\carva\source\repos\estructuradecontrol\estructuradecontrol\obj\Debug\net8.0\ref\estructuradecontrol.dll
+C:\Users\carva\source\repos\estructuradecontrol\estructuradecontrol\obj\Debug\net8.0\estructuradecontrol.sourcelink.json
