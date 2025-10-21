@@ -165,6 +165,158 @@
 //Console.WriteLine("Interés pagado en el primer mes: $" + interesMensual);
 //Console.WriteLine("Total a pagar (capital + intereses): $" + totalPagar);
 
+{
+    //    int[] numeros = new int[3];
+    //    for (int i = 0; i < 3; i++)
+    //    {
+    //        Console.WriteLine("Ingrese un numero:" + (i + 1) + ":");
+    //        numeros[i] = int.Parse(Console.ReadLine());
+
+
+    //    }
+    //    Console.WriteLine("\nnumeros ingresados:");
+    //    foreach (var item in numeros)
+    //    {
+    //        Console.WriteLine(item);
+    //    }
+    //    int suma = 0;
+    //    for (int i = 0; i < 3; i++)
+    //    {
+    //        suma += numeros[i];
+    //    }
+    //    Console.WriteLine("\nLa suma de los numeros es: " + suma);
+
+    //List<int> numeros = new List<int>();
+    //numeros.Add(10);
+    //numeros.Add(20);
+    //numeros.Add(30);
+    //Console.WriteLine("Numeros en la lista:");
+    //foreach (int item in numeros)
+    //{
+    //    Console.WriteLine(item);
+    //}
+    ////acceder a un elemento por su indice
+    //int primernumero = numeros[1];
+    //Console.WriteLine($"El  numero en la lista es: " + primernumero);
+    ////modificar elemento en la lista
+    //numeros[2] = 50;
+    //Console.WriteLine($"Numero modificado: {numeros[2]}");
+
+    ////insertar un elemento en una posicion especifica
+    //numeros.Insert(2, 15);
+    //Console.WriteLine($"Numero modificado: {numeros[2]}");
+
+    ////eliminar un elemento de la lista especifico
+    //numeros.Remove(1);//elimina la posicion 1
+
+    ////eliminar un elemento por su valor
+
+    //numeros.Remove(10);//elimina el valor 10
+
+
+    {
+        {
+
+            {
+                // Aquí guardaremos los nombres y precios de los productos
+                List<string> nombres = new List<string>();
+                List<double> precios = new List<double>();
+
+                int opcion = 0;
+
+                // El programa se repite hasta que el usuario elija salir
+                while (opcion != 5)
+                {
+                    // Mostramos el menú
+
+                    Console.WriteLine("     MENÚ DE OPCIONES   ");
+
+                    Console.WriteLine("1. Agregar producto");
+                    Console.WriteLine("2. Mostrar productos");
+                    Console.WriteLine("3. Actualizar producto");
+                    Console.WriteLine("4. Eliminar producto");
+                    Console.WriteLine("5. Salir");
+                    Console.Write("Elige una opción: ");
+
+                    // Leemos la opción del usuario
+                    opcion = int.Parse(Console.ReadLine());
+
+                    // Usamos if (porque es más fácil que switch para principiantes)
+                    if (opcion == 1)
+                    {
+                        Console.Write("Escribe el nombre del producto: ");
+                        string nombre = Console.ReadLine();
+
+                        Console.Write("Escribe el precio del producto: ");
+                        double precio = double.Parse(Console.ReadLine());
+
+                        nombres.Add(nombre);
+                        precios.Add(precio);
+
+                        Console.WriteLine(" Producto agregado con éxito!");
+                    }
+                    else if (opcion == 2)
+                    {
+                        Console.WriteLine("\nLISTA DE PRODUCTOS ");
+                        if (nombres.Count == 0)
+                        {
+                            Console.WriteLine("No hay productos aún.");
+                        }
+                        else
+                        {
+                            for (int i = 0; i < nombres.Count; i++)
+                            {
+                                Console.WriteLine((i + 1) + ". " + nombres[i] + " - $" + precios[i]);
+                            }
+                        }
+                    }
+                    else if (opcion == 3)
+                    {
+                        Console.WriteLine("\n ACTUALIZAR PRODUCTO ");
+                        Console.Write("Número del producto a actualizar: ");
+                        int pos = int.Parse(Console.ReadLine()) - 1;
+
+                        if (pos >= 0 && pos < nombres.Count)
+                        {
+                            Console.Write("Nuevo nombre: ");
+                            nombres[pos] = Console.ReadLine();
+
+                            Console.Write("Nuevo precio: ");
+                            precios[pos] = double.Parse(Console.ReadLine());
+
+                            Console.WriteLine(" Producto actualizado!");
+                        }
+                        else
+                        {
+                            Console.WriteLine(" Número inválido.");
+                        }
+                    }
+                    else if (opcion == 4)
+                    {
+                        Console.WriteLine("\n ELIMINAR PRODUCTO ");
+                        Console.Write("Número del producto a eliminar: ");
+                        int pos = int.Parse(Console.ReadLine()) - 1;
+
+                        if (pos >= 0 && pos < nombres.Count)
+                        {
+                            nombres.RemoveAt(pos);
+                            precios.RemoveAt(pos);
+                            Console.WriteLine(" Producto eliminado!");
+                        }
+                        else
+                        {
+                            Console.WriteLine(" Número inválido.");
+                        }
+                    }
+                    else if (opcion == 5)
+                    {
+                        Console.WriteLine(" Saliendo del programa...");
+                    }
+                    else
+                    {
+                        Console.WriteLine(" Opción no válida, intenta otra vez.");
+                    }
+
 
 
 
